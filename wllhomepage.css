@@ -1,0 +1,224 @@
+body {
+    background-color: black;
+    
+  }
+  .father-nav-box {
+    /*background-image: linear-gradient(324deg, transparent 0%, transparent 45%,rgba(186, 186, 186,0.04) 45%, rgba(186, 186, 186,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(208deg, transparent 0%, transparent 40%,rgba(186, 186, 186,0.04) 40%, rgba(186, 186, 186,0.04) 80%,transparent 80%, transparent 100%),linear-gradient(202deg, transparent 0%, transparent 20%,rgba(186, 186, 186,0.04) 20%, rgba(186, 186, 186,0.04) 40%,transparent 40%, transparent 100%),linear-gradient(338deg, transparent 0%, transparent 10%,rgba(186, 186, 186,0.04) 10%, rgba(186, 186, 186,0.04) 72%,transparent 72%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));*/
+    box-shadow: 0 3px 10px 0px skyblue;
+    opacity: 300px;
+    background: transparent;
+    position: absolute;
+    margin-top: 800px;
+    border-radius: 18px;
+    max-width: px; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+
+    
+  }
+  .dream-text {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: skyblue;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    
+    padding-top: 0px;
+    border-width: 100%;
+    background: transparent;
+    animation: dreamT 700ms ease-out 0s infinite;
+    animation-direction: alternate;
+
+  }
+  @keyframes dreamT {
+    0% {
+      transform: translateY(0px);
+      color: lightgreen;
+    }
+    20% {
+      color: yellowgreen;
+      text-decoration: overline;
+      
+    }
+    40% {
+      color: lightseagreen;
+      text-decoration: underline;
+    }
+    50%{
+      color: coral;
+      transform: translateY(3px);
+      
+      
+    }
+    60%{
+      color: white;
+      text-decoration: overline;
+     
+    }
+    80% {
+      color: pink;
+      text-decoration: underline;
+    }
+    100% {
+      transform: translateY(-3px);
+      color: pink;
+      
+    }
+
+  }
+  .banner-box {
+    background-color: black;
+    background-image: url(twitter_web_wallpapers/astrop.jpg);
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+  }
+  #clock {
+    color: skyblue;
+    margin-right: 10px;
+    animation: clock-k 1s ease 0s infinite ;
+    animation-direction: alternate;
+
+  }
+  @keyframes clock-k {
+    0% {
+      color: lightgreen;
+      
+    }
+    20% {
+      color: pink;
+      
+    }
+    40% {
+      color: purple;
+      
+    }
+    60% {
+      color: tomato;
+      
+    }
+    80% {
+      color: violet;
+      
+    }
+    100% {
+      color: white;
+      
+    }
+  }
+ 
+  
+  .logo_image {
+    border-radius: 29px;
+  }
+  .marq-ue {
+    position: ;
+    color: skyblue;
+    margin: -13px;
+    font-size: 14px;
+  }
+  .row-box {
+    background-color: black;
+    display: ;
+    position: relative;
+    
+  }
+
+  .child-box-1 {
+    display: inline-block;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 18px;
+    overflow-y: scroll;
+    height: 710px;
+    background-color: #222222;
+    background-image: linear-gradient(324deg, transparent 0%, transparent 45%,rgba(186, 186, 186,0.04) 45%, rgba(186, 186, 186,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(208deg, transparent 0%, transparent 40%,rgba(186, 186, 186,0.04) 40%, rgba(186, 186, 186,0.04) 80%,transparent 80%, transparent 100%),linear-gradient(202deg, transparent 0%, transparent 20%,rgba(186, 186, 186,0.04) 20%, rgba(186, 186, 186,0.04) 40%,transparent 40%, transparent 100%),linear-gradient(338deg, transparent 0%, transparent 10%,rgba(186, 186, 186,0.04) 10%, rgba(186, 186, 186,0.04) 72%,transparent 72%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+   
+
+  }
+  .child-box-2 {
+    display:inline-block;
+    flex: 3.5;
+    overflow-y: scroll;
+    height: 710px;
+    margin-right: 20px;
+    border-radius: 18px;
+    background-color: #222222;
+   
+    background-image: linear-gradient(324deg, transparent 0%, transparent 45%,rgba(186, 186, 186,0.04) 45%, rgba(186, 186, 186,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(208deg, transparent 0%, transparent 40%,rgba(186, 186, 186,0.04) 40%, rgba(186, 186, 186,0.04) 80%,transparent 80%, transparent 100%),linear-gradient(202deg, transparent 0%, transparent 20%,rgba(186, 186, 186,0.04) 20%, rgba(186, 186, 186,0.04) 40%,transparent 40%, transparent 100%),linear-gradient(338deg, transparent 0%, transparent 10%,rgba(186, 186, 186,0.04) 10%, rgba(186, 186, 186,0.04) 72%,transparent 72%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    
+  }
+  ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: rgb(96, 133, 148);
+      border-radius: 12px;
+      
+    }
+    ::-webkit-scrollbar-track {
+      background-color: rgb(25, 25, 26);
+    }
+
+    .top-box {
+      grid-template-columns: 1fr 1fr;
+    }
+    .nature-box {
+      display: inline-block
+    }
+    .show-box {
+      display: inline-block;
+      float: right;
+      
+    }
+    .click-any-text {
+      font-size: 30px;
+    }
+    .show-lk {
+      text-decoration: none;
+      font-weight: 700;
+    }
+    
+    .full-image-lk,
+    .text-lk {
+      text-decoration: none;
+      font-weight: 700;
+      
+    }
+    .footer {
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      
+    }
+    .all-rights {
+      font-size: 12px;
+    }
+    .text-lk,
+    .nav-link {
+      color: rgb(149, 161, 165);
+    }
+    .text-lk:hover,
+    .nav-link:hover {
+      color: white;
+    }
+    .img-mg {
+      border-radius: 22px;
+    }
+    .img-mg:hover {
+      
+      
+    }
+    .text-lk {
+      
+    }
+    
+    
+  
