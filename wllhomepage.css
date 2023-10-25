@@ -240,6 +240,13 @@ body {
       .banner-box {
         background-position: 55%;
       }
+      .father-nav-box {
+        margin-bottom: 70px;
+        height: fit-content;
+      }
+      .nav-link{
+        color: white;
+      }
 
     }
     
