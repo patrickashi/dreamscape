@@ -133,6 +133,9 @@ body {
     position: relative;
     
   }
+  .nav-btn {
+    background-color: black;
+  }
 
   .child-box-1 {
     display: inline-block;
