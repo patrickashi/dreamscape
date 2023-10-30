@@ -58,13 +58,14 @@
    
             }
             .child-box-2 {
-              display:inline-block;
+              display:inline-block; 
               flex: 3.5;
               overflow-y: scroll;
               height: 710px;
               margin-right: 20px;
               border-radius: 18px;
               background-color: #222222;
+              color: green;
               background-image: linear-gradient(324deg, transparent 0%, transparent 45%,rgba(186, 186, 186,0.04) 45%, rgba(186, 186, 186,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(208deg, transparent 0%, transparent 40%,rgba(186, 186, 186,0.04) 40%, rgba(186, 186, 186,0.04) 80%,transparent 80%, transparent 100%),linear-gradient(202deg, transparent 0%, transparent 20%,rgba(186, 186, 186,0.04) 20%, rgba(186, 186, 186,0.04) 40%,transparent 40%, transparent 100%),linear-gradient(338deg, transparent 0%, transparent 10%,rgba(186, 186, 186,0.04) 10%, rgba(186, 186, 186,0.04) 72%,transparent 72%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
               
             }
@@ -90,6 +91,24 @@
               .text-lk:hover,
               .nav-link:hover {
                 color: white; 
+              }
+
+              @media (max-width:675px) {
+                .child-box-1 {
+                    font-size: 6px;
+                    width: 20px;
+                    margin-left: 0;
+                  }
+                  .child-box-2{
+                    max-width: 400px;
+                    padding: 0;
+                    margin-right: 0;
+                    overflow-x: hidden;
+                    padding-left: 12px;
+                    font-size: 6px;
+                    color: green;
+                    
+                  }
               }
 
             
@@ -130,7 +149,7 @@
 
           <section>
             <div class="container-fluid">
-                <div class="row row-box">
+                <div class="row row-box justify-content-center">
                     <div class="col child-box-1 text-center"> <!--start-->
                         <p class="py-1 ps-3 fw-bold text-white"> Category</p>
                         <ul class="nav flex-column">
@@ -218,12 +237,12 @@
  
                     </div> <!--end of left col-->
 
-                    <div class="col child-box-2 text-white"> <!--start of right col-->
-                        <div class="top-box mb-1 pb-1">
+                    <div class="col child-box-2 text-center"> <!--start of right col-->
+                        <div class="top-box mb-1 pb-1 ">
                             <p class="about text-white text-center display-3 fw-bold"> About</p>
                         </div>
                 
-                        <div class="para-box  pb-3"> <!--start-->
+                        <div class=" para-box  pb-3"> <!--start-->
                             <div class="para-mini-box"> <!---->
                                 <p class=" para-text text-white text-center pt-5"> 
                                     At dreamscape, we believe in the power of imagination and the ability of breathtaking 

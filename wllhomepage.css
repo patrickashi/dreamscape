@@ -134,7 +134,33 @@ body {
     
   }
   .nav-btn {
-    background-color: black;
+    background-color: transparent;
+    box-shadow: 2px 0px 9px 0  skyblue;
+    transition: 300ms;
+  }
+  .nav-btn:hover {
+    opacity: 70%;
+    transform: scale(0.9);
+    
+  }
+
+  .arrow-up{
+    display: flex;
+    justify-content: center;
+    /* line-height: 5px; */
+    color:skyblue;
+    animation: moveUp 800ms ease infinite;
+
+  }
+  @keyframes moveUp {
+    from {
+      transform: translateY(3px);
+      opacity: 30%;
+    }
+    to {
+      transform: translateY(-6px);
+      opacity:90%;
+    }
   }
 
   .child-box-1 {
